@@ -58,7 +58,6 @@ build/
 !fetch.py
 !parse_and_clean.py
 !prompt.py
-!.streamlit
 !rag_pipeline.py
 !README.md
 !requirements.txt
@@ -66,4 +65,8 @@ build/
 !embed_and_store_in_db.py
 !chunker.py
 !.gitignore
-!pdf_files
+!.pdf_files/
+!.pdf_files/**
+
+!.streamlit/
+!.streamlit/**
