@@ -67,6 +67,5 @@ build/
 !.gitignore
 !.pdf_files/
 !.pdf_files/**
-
 !.streamlit/
 !.streamlit/**
