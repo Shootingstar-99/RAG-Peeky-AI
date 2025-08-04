@@ -69,3 +69,4 @@ build/
 !.pdf_files/**
 !.streamlit/
 !.streamlit/**
+!runtime.txt
