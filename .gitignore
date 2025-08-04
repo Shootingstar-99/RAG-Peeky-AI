@@ -1,0 +1,69 @@
+# created by virtualenv automatically
+*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Streamlit cache and artifacts
+.cache/
+*.streamlit-*
+
+# Jupyter/IPython
+*.ipynb_checkpoints
+
+# OS/filesystem junk
+.DS_Store
+Thumbs.db
+
+# Editor/project settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Vector DBs and local databases
+peeky_database/
+chroma_db/
+*.db
+*.sqlite3
+*.log
+
+# Env/config/secrets
+.env
+.env.*
+*.env
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
+*.old
+
+# Test/output files
+*.test
+*.out
+
+# Common build artifacts
+dist/
+build/
+*.egg-info/
+
+!main.py
+!fetch.py
+!parse_and_clean.py
+!prompt.py
+!.streamlit
+!rag_pipeline.py
+!README.md
+!requirements.txt
+!dbnameiteration.txt
+!embed_and_store_in_db.py
+!chunker.py
+!.gitignore
+!pdf_files
